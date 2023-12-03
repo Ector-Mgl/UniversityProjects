@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    height: 100px;
+}
+
+header ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: white;
+}
+header ul li a{
+    color:black;
+    font-weight: bold;
+    
+}
+
+header ul li a:hover{
+    background-color: #e0e0e086;
+    border-radius: 10px;
+    color: #007dae;
+}
+
+section ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: #B0171F;
+}
+section ul li a {
+    color: white;
+    font-weight: bold;
+
+}
+section ul li a:hover{
+    
+    color:#007dae;;
+}
+
+
+
+.fundo-compras{
+    background-color:#B0171F;
+    padding: 0 0 30% 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.fundo-compras .produto{
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5%;
+    cursor: pointer;
+    overflow: hidden;    
+}
+
+.fundo-compras .produto h5{
+    opacity: 0;
+    font-size: 9px;
+}
+.fundo-compras .produto:hover{
+    background-color:#007dae;
+    padding: 5% 5% 9% 5%;
+    
+}
+.fundo-compras .produto:hover h5{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+    color: aliceblue;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #007dae;
+}
+
+
+footer .footer{
+    background-color: #B0171F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+footer p{
+    background-color: #B0171F;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
